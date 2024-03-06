@@ -32,7 +32,21 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  width: 100%;
+  background-color: #ffe4c48c;
+  border-radius: 12px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.25rem;
+  margin: 3.5rem;
 }
